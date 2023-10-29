@@ -1,0 +1,6 @@
+image: gitpod/workspace-full
+checkoutLocation: gitpod-k3s
+tasks:
+  - name: install-cli
+    init: |
+      .gitpod/install-cli.sh
